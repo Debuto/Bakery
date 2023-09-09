@@ -1,4 +1,5 @@
 using System;
+using Baker.Models;
 
 namespace Baker
 {
@@ -12,7 +13,7 @@ namespace Baker
 
         Console.WriteLine($"Bread Price: ${bread.PricePerLoaf} each");
 
-          Console.Write("How many loaves of Bread would you like to buy? ");
+          Console.Write("How many loaves of Bread would you like to buy? Buy 2, get 1 free!!! ");
           int breadQuantity = int.Parse(Console.ReadLine());
 
           double totalCost = CalculateTotalCost(bread, breadQuantity);
@@ -27,9 +28,5 @@ namespace Baker
 
         return breadCost;
     }
-  }
-  class Bread
-  {
-      public double PricePerLoaf { get; } = 2.0;
   }
 }
