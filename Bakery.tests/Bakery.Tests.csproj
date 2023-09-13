@@ -8,6 +8,6 @@
     <PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Baker.csproj" />
+    <ProjectReference Include= "../Bakery/Bakery.csproj" />
   </ItemGroup>
 </Project>
