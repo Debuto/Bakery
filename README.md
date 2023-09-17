@@ -4,11 +4,11 @@
 
 ## Setup/Install Instructions:
 
-* In order to run install and run project
+* In order to run project: <br> (please install necessary technologies...)
 
 1. Clone this repo.
 
-2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "ShapeTracker".
+2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "bakery.solution".
 
 3. In the command line, run the command "dotnet run" to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
 
@@ -17,16 +17,23 @@
 
 ## Description:
 
+A C# console application for a bakery that prompts a for user input to determine an order amount (Quantity) and a cost for each order (Total cost).
+
 <br>
 
 ---
 
 # Technologies used: 
+- VS code
+- .NET https://dotnet.microsoft.com/en-us/download/dotnet/
+- C#
 
 <br>
 
 # Tests:
-
+- Change directory to Bakery.tests folder (command: cd Bakery.tests)
+- dotnet test to run tests
+- Has tests for 2 models in Bakery folder, tests all classes, methods, etc.
 
 
 # Known bugs:
